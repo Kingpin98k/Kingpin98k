@@ -1,0 +1,6 @@
+
+
+7. Write a Java program to print digitsToWords(int number) for example digitToWords(321) should print three two ones? (solution)
+
+full into git
+now working
