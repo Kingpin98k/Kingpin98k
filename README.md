@@ -6,11 +6,11 @@
 <h2 align="center">A passionate Mobile Application Developer from India <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="29"> </h2>
 
 - Proficient in Java, C++, and Python programming languages, and well-versed in DSA and OOP concepts.
+
 - Conceptualized and developed mobile applications using Flutter, Dart, and Android Development.
+
 - Experienced in competitive coding and workshop coordination.
-- Demonstrated creative problem-solving skills , analytical skills and ability to adapt to new technologies.
-- Led successful teamwork by effectively communicating project progress and updates.
-- Skilled in decision-making and process improvements.
+
 - Driven to contribute to meaningful software development projects and continuously expand knowledge in the
 field.
 
@@ -23,7 +23,7 @@ field.
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
   
- <img align="right" alt="Coding" width="50%" height= "50%" style="text-align:center" src="https://suavesol.net/wp-content/uploads/2019/11/mobile-app-tab2.gif"> 
+<img align="right" alt="Coding" width="50%" height="50%" src="https://drive.google.com/uc?export=download&id=1mJXUHdEHXnYXy7h585e6Mz3d_Ez8liBz">
 
 
 
@@ -75,7 +75,7 @@ field.
 <div align="center">    
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kingpin98k&theme=2077" style="height: 300px"  />                                 </div>                                                           
  <h2 align="left">⚡Activity Graph:</h2>
-  <a><img alt="Aditya Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=Kingpin98k&bg_color=000000&color=ffffff&line=0ae618&point=00c4f5&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph" /></a>    
+  <a><img alt="Aditya Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=Kingpin98k&theme=react-dark" /></a>      
 
 <img align="center" src="https://github.com/Kingpin98k/Kingpin98k/blob/output/github-contribution-grid-snake.svg" alt="snake" width="100%"/>
 
