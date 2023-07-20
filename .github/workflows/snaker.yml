@@ -1,25 +1,32 @@
+
 name: Generate Snake
 
 on:
-  push:
-    branches:
-      - main  # Change this to your desired branch if needed
+  schedule:
+    - cron: "0 */6 * * *"
 
 jobs:
-  generate_graph:
+  build:
     runs-on: ubuntu-latest
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Use Platane/snk action
-      uses: Platane/snk@v3
+    - name: Generate the Snake Contribution Graph (Dark Mode)
+      uses: Platane/snk/svg-only@v2
       with:
-        github_user_name: ${{ github.repository_owner }}
-        outputs: |
-          dist/github-snake.svg
-          dist/github-snake-dark.svg?palette=github-dark
-          dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        github_user_name: Kingpin98k
+        out_file: dist/github-snake-dark.svg
+        prefers_dark_mode: true
 
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Check Repository Status
+      run: git status
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add dist/github-snake-dark.svg
+        git commit -m "Update snake contribution graph [skip ci]"
+        git push origin main
